@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-10 08:41+0800\n"
+"POT-Creation-Date: 2016-08-10 08:47+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,19 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/huzhifeng/workspace/netroby/qml-demo1/qml-demo1/Main.qml:21
 #: /home/huzhifeng/workspace/netroby/build-qml-demo1-Desktop-Debug/qml-demo1/qml-demo1.desktop.h:1
 msgid "qml-demo1"
-msgstr ""
-
-#: /home/huzhifeng/workspace/netroby/qml-demo1/qml-demo1/Main.qml:33
-msgid "Hello.."
-msgstr ""
-
-#: /home/huzhifeng/workspace/netroby/qml-demo1/qml-demo1/Main.qml:43
-msgid "Tap me!"
-msgstr ""
-
-#: /home/huzhifeng/workspace/netroby/qml-demo1/qml-demo1/Main.qml:47
-msgid "..world!"
 msgstr ""
