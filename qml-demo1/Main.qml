@@ -19,11 +19,6 @@ MainView {
         header: PageHeader {
             id: pageHeader
             title: i18n.tr("qml-demo1")
-            StyleHints {
-                foregroundColor: UbuntuColors.orange
-                backgroundColor: UbuntuColors.porcelain
-                dividerColor: UbuntuColors.slate
-            }
         }
 
         Label {
@@ -43,13 +38,24 @@ MainView {
             anchors {
                 horizontalCenter: parent.horizontalCenter
                 top: label.bottom
-                topMargin: units.gu(2)
             }
             width: parent.width
             text: i18n.tr("Tap me!")
+            anchors.horizontalCenterOffset: 0
+            anchors.topMargin: 124
             onClicked: {
                 label.text = i18n.tr("..world!")
             }
+        }
+
+        TextInput {
+            id: textInput1
+            x: 0
+            y: 66
+            width: 800
+            height: 20
+            text: qsTr("Type your name")
+            font.pixelSize: 12
         }
     }
 }
