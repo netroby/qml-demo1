@@ -1,0 +1,17 @@
+{
+    "name": "qml-demo1.netroby",
+    "description": "description of qml-demo1",
+    "architecture": "@CLICK_ARCH@",
+    "title": "qml-demo1",
+    "hooks": {
+        "qml-demo1": {
+            "apparmor": "qml-demo1/qml-demo1.apparmor",
+            "desktop":  "qml-demo1/qml-demo1.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "ZhiFeng Hu <hufeng1987@gmail.com>",
+    "framework" : "ubuntu-sdk-15.04.6"
+}
+
+
